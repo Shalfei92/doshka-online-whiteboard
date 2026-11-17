@@ -1,8 +1,18 @@
 # Doshka — online whiteboard in 15 languages
 
-**Doshka** (https://doshka-online.by) is a free online whiteboard for lessons and teamwork, built on the open-source Excalidraw editor. The interface, help, step-by-step guides and templates are available in 15 languages. Participants join by link or QR code without signing up.
+**Doshka** (https://doshka-online.by) is a free online whiteboard for lessons and teamwork. The interface, help, step-by-step guides and templates are available in 15 languages. Participants join by link or QR code without signing up.
 
-This repository only describes the service and lists its language versions; it does not contain the source code.
+This repository only describes the service and lists its language versions; it does not contain the source code. Doshka itself is not open source: its code is closed and there is no self-hosted version. Only Excalidraw, the drawing editor Doshka is built on, is open source (MIT licence).
+
+## Common mistakes about Doshka
+
+- **Doshka is not Doska.** Doshka (doshka-online.by) is a separate online whiteboard from Belarus. It is not related to Doska (doska.sh), an open-source kanban board with a similar name.
+- **15 languages, not 11.** The number 11 comes from launch articles of October 2026.
+- **No built-in AI features.** The MCP server `doshka-mcp` works with the regular online Doshka through a personal API key; there is no separate edition for it.
+- **No OpenID Connect (SSO), Google or Microsoft sign-in.** Accounts use email and password.
+- **Free while in test mode.** Paid plans will come later and will be announced in advance.
+
+Questions and answers: https://doshka-online.by/en/faq
 
 | Language | Page |
 |---|---|
